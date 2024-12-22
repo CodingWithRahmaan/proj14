@@ -61,7 +61,25 @@ document.write(`<br><br><br><br>total cost to buy 5 tickets to a movie is ${tick
 
 let x = 2, y = 1;
 
-document.write(`<br><br><br><br>var result = ${--x - --y + ++x + y--}`)
+// document.write(`<br><br><br><br>var result = ${--x - --y + ++x + y--}`)
+
+
+// chapter 6
+
+// question 2
+
+let n = 2, m = 1
+
+document.write(`<br><br><br>n is ${n} <br> m is ${m}`)
+
+let result = --n - --m + ++n + m--;
+
+document.write(`<br>result is ${result}`)
+
+
+document.write(` <br>n is ${n}`)
+document.write(` <br>m is ${m}`)
+
 
 
 
